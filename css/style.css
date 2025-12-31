@@ -233,6 +233,9 @@ a {
     -webkit-tap-highlight-color: rgba(58, 80, 87, 0);
     transition: transform 0.1s ease;
   }
+  .header .nav__link:hover {
+    background-color: transparent;
+  }
   .header .nav__link:active {
     background-color: #3a5057;
     transform: scale(0.9);
