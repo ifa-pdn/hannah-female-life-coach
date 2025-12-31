@@ -1,5 +1,7 @@
 // console.log("is app.js running?");
 
+// Overflow hidden when navigations open (Mobile)
+
 const navbar = document.querySelector(".nav__bars");
 const navlist = document.querySelector(".nav__list");
 const page = document.querySelector(".page");
@@ -9,6 +11,8 @@ navbar.addEventListener("click", function () {
   navlist.classList.toggle("is-active");
   page.classList.toggle("lock");
 });
+
+// Back to top button
 
 const headerSection = document.querySelector(".header");
 const heroSection = document.querySelector(".hero");
@@ -29,6 +33,8 @@ backToTopBtn.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+
+// Bilingual languages EN/JP
 
 const texts = {
   en: {
