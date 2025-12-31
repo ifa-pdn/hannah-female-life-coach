@@ -16,13 +16,17 @@ https://ifa-pdn.github.io/hannah-female-life-coach/
 **プレビュー:**
 
 _デスクトップ_
-![Desktop view](screenshots/desktop.png)
 
-_タブレット_
-![Tablet view](screenshots/tablet.png)
+<p>
+  <img src="screenshots/desktop.png" width="800" alt="Desktop view"/>
+</p>
 
-_モバイル_
-![Mobile view](screenshots/mobile.png)
+_タブレット - モバイル_
+
+<p>
+  <img src="screenshots/tablet.png" width="400" alt="Tablet view"/>
+  <img src="screenshots/mobile.png" width="200" alt="Mobile view"/>
+</p>
 
 **主な機能:**
 
@@ -80,13 +84,17 @@ https://ifa-pdn.github.io/hannah-female-life-coach/
 **Preview:**
 
 _Desktop_
-![Desktop view](screenshots/desktop.png)
 
-_Tablet_
-![Tablet view](screenshots/tablet.png)
+<p>
+  <img src="screenshots/desktop.png" width="800" alt="Desktop view"/>
+</p>
 
-_Mobile_
-![Mobile view](screenshots/mobile.png)
+_Tablet - Mobile_
+
+<p>
+  <img src="screenshots/tablet.png" width="400" alt="Tablet view"/>
+  <img src="screenshots/mobile.png" width="200" alt="Mobile view"/>
+</p>
 
 **Key Features:**
 
@@ -143,13 +151,17 @@ https://ifa-pdn.github.io/hannah-female-life-coach/
 **Preview:**
 
 _Desktop_
-![Desktop view](screenshots/desktop.png)
 
-_Tablet_
-![Tablet view](screenshots/tablet.png)
+<p>
+  <img src="screenshots/desktop.png" width="800" alt="Desktop view"/>
+</p>
 
-_Mobile_
-![Mobile view](screenshots/mobile.png)
+_Tablet - Mobile_
+
+<p>
+  <img src="screenshots/tablet.png" width="400" alt="Tablet view"/>
+  <img src="screenshots/mobile.png" width="200" alt="Mobile view"/>
+</p>
 
 **Fitur Utama:**
 
