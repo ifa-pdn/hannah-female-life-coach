@@ -1,6 +1,6 @@
 # hannah-female-life-coach
 
-日本語
+**_日本語_**
 
 女性向けライフコーチのランディングページ – レスポンシブ・バイリンガル（英語/日本語）
 
@@ -10,10 +10,21 @@ Hannah – Female Life Coach Website
 
 このウェブサイトは、練習用プロジェクトかつウェブ開発ポートフォリオとして制作され、整った HTML 構造、レスポンシブデザイン、基本的な JavaScript の操作を重視しています。
 
-ライブデモ:
+**ライブデモ:**
 https://ifa-pdn.github.io/hannah-female-life-coach/
 
-主な機能:
+**プレビュー:**
+
+_デスクトップ_
+![Desktop view](screenshots/desktop.png)
+
+_タブレット_
+![Tablet view](screenshots/tablet.png)
+
+_モバイル_
+![Mobile view](screenshots/mobile.png)
+
+**主な機能:**
 
 - シンプルで落ち着いたランディングページデザイン
 - 完全レスポンシブ（モバイル、タブレット、デスクトップ対応）
@@ -23,7 +34,7 @@ https://ifa-pdn.github.io/hannah-female-life-coach/
 - Open Graph メタタグ（ソーシャルシェア用に対応済み）
 - GitHub Pages によるデプロイ
 
-使用技術:
+**使用技術:**
 
 - HTML5 – セマンティック HTML
 - CSS3 / SCSS – レイアウト・スタイリング
@@ -32,28 +43,28 @@ https://ifa-pdn.github.io/hannah-female-life-coach/
 - Git & GitHub – バージョン管理
 - GitHub Pages – デプロイ
 
-プロジェクトの目的:
+**プロジェクトの目的:**
 
 - HTML、CSS、基本的な JavaScript の実装練習
 - Git のワークフロー（add、commit、push）に慣れる
 - ジュニア Web 開発者向けポートフォリオプロジェクトの準備
 - 静的ウェブサイトのデプロイ手順を学ぶ
 
-注意:
+**注意:**
 
 - このプロジェクトは静的ウェブサイトであり、バックエンドやデータベースには接続されていません。
 - ウェブサイトのデザインには、templatesjungle.com が提供する無料の Figma テンプレートを使用しています。
   [shorturl.at/xWSaL][templatesjungle.com]
 - HTML、SCSS、JavaScript の実装はすべて自作です。
 
-作者:
+**作者:**
 Iwan Fauzan
 ジュニア Web 開発者
 GitHub: https://github.com/ifa-pdn
 
 ---
 
-English
+**_English_**
 
 Landing Page for a Female Life Coach – Responsive, Bilingual (English/Japanese)
 
@@ -63,10 +74,21 @@ A landing page website for Hannah, a Female Life Coach, focused on personal deve
 
 This website was created both as a practice project and as a web development portfolio, emphasizing clean HTML structure, responsive design, and basic JavaScript interactions.
 
-Live Demo:
+**Live Demo:**
 https://ifa-pdn.github.io/hannah-female-life-coach/
 
-Key Features:
+**Preview:**
+
+_Desktop_
+![Desktop view](screenshots/desktop.png)
+
+_Tablet_
+![Tablet view](screenshots/tablet.png)
+
+_Mobile_
+![Mobile view](screenshots/mobile.png)
+
+**Key Features:**
 
 - Clean and calming landing page design
 - Fully responsive (mobile, tablet, desktop)
@@ -76,7 +98,7 @@ Key Features:
 - Open Graph meta tags (ready for social sharing)
 - Deployed via GitHub Pages
 
-Technologies Used:
+**Technologies Used:**
 
 - HTML5 – Semantic HTML
 - CSS3 / SCSS – Layout & styling
@@ -85,27 +107,27 @@ Technologies Used:
 - Git & GitHub – Version control
 - GitHub Pages – Deployment
 
-Project Goals:
+**Project Goals:**
 
 - Practice implementing HTML, CSS, and basic JavaScript
 - Familiarize with Git workflow (add, commit, push)
 - Prepare a portfolio project for a Junior Web Developer role
 - Learn the process of deploying a static website
 
-Note:
+**Note:**
 
 - This project is a static website and is not connected to a backend or database.
 - The website design uses a free Figma template from templatesjungle [shorturl.at/xWSaL][templatesjungle.com].
 - The HTML, SCSS, and JavaScript implementation was done independently.
 
-Author:
+**Author:**
 Iwan Fauzan
 Web Developer (Junior)
 GitHub: https://github.com/ifa-pdn
 
 ---
 
-Bahasa Indonesia
+**_Bahasa Indonesia_**
 
 Landing page responsif dwibahasa (Inggris/Jepang) untuk seorang Pembimbing pengembangan diri wanita, dibangun dengan HTML, SCSS, dan JavaScript.
 
@@ -115,10 +137,21 @@ Website landing page untuk Hannah, seorang Female Life Coach, yang berfokus pada
 
 Website ini dibuat sebagai latihan sekaligus portofolio web development, dengan penekanan pada struktur HTML yang rapi, desain responsif, dan interaksi JavaScript dasar.
 
-Live Demo:
+**Live Demo:**
 https://ifa-pdn.github.io/hannah-female-life-coach/
 
-Fitur Utama:
+**Preview:**
+
+_Desktop_
+![Desktop view](screenshots/desktop.png)
+
+_Tablet_
+![Tablet view](screenshots/tablet.png)
+
+_Mobile_
+![Mobile view](screenshots/mobile.png)
+
+**Fitur Utama:**
 
 - Desain landing page yang bersih dan tenang
 - Responsif (mobile, tablet, desktop)
@@ -128,7 +161,7 @@ Fitur Utama:
 - Open Graph meta tag (siap untuk social sharing)
 - Deploy menggunakan GitHub Pages
 
-Teknologi yang Digunakan:
+**Teknologi yang Digunakan:**
 
 - HTML5 – Semantic HTML
 - CSS3 / SCSS – Layout & styling
@@ -137,20 +170,20 @@ Teknologi yang Digunakan:
 - Git & GitHub – Version control
 - GitHub Pages – Deployment
 
-Tujuan Proyek:
+**Tujuan Proyek:**
 
 - Melatih implementasi HTML, CSS, dan JavaScript dasar
 - Membiasakan workflow Git (add, commit, push)
 - Mempersiapkan proyek portofolio untuk Web Developer Junior
 - Mempelajari proses deployment website statis
 
-Catatan:
+**Catatan:**
 
 - Proyek ini merupakan website statis dan belum terhubung dengan backend atau database.
 - Desain website menggunakan template Figma gratis dari [shorturl.at/xWSaL][templatesjungle.com].
 - Implementasi HTML, SCSS, dan JavaScript dikerjakan secara mandiri.
 
-Author:
+**Author:**
 Iwan Fauzan
 Web Developer (Junior)
 GitHub: https://github.com/ifa-pdn
