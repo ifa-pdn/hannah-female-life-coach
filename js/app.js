@@ -1,5 +1,3 @@
-// console.log("is app.js running?");
-
 // Overflow hidden when navigations open (Mobile)
 
 const navbar = document.querySelector(".nav__bars");
@@ -216,5 +214,3 @@ languageToggleBtn.addEventListener("click", () => {
     el.textContent = texts[currentLang][key];
   });
 });
-
-// console.log("app.js is running!");
