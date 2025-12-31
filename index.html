@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Life's journey is an ongoing process..."
+    />
+    <meta name="author" content="Iwan Fauzan" />
+    <title>Hannah Female Life Coach</title>
+
+    <meta property="og:title" content="Life Coach for Women" />
+    <meta
+      property="og:description"
+      content="You don’t have to walk your journey alone."
+    />
+    <meta property="og:image" content="https://example.com/cover.jpg" />
+    <meta property="og:url" content="https://example.com" />
+    <meta property="og:type" content="website" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italiana&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body class="page">
+    <header class="header">
+      <div class="header__inner">
+        <h1 class="visually-hidden">Hannah Female Life Coach</h1>
+        <img
+          class="header__logo"
+          src="svg/hannah-logo.svg"
+          alt="Hannah Female Life Coach Logo"
+        />
+        <nav class="nav header__nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="index.html" data-key="navHome">Home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#coaching" data-key="navAbout"
+                >About</a
+              >
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#benefits" data-key="navContact"
+                >Benefits</a
+              >
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#" data-key="navBlog">Blog</a>
+            </li>
+          </ul>
+          <button class="language header__language">JP</button>
+          <button class="nav__bars" aria-label="Toggle Menu">
+            <div class="nav__bar"></div>
+            <div class="nav__bar"></div>
+            <div class="nav__bar"></div>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero__content">
+          <h2 class="hero__title" data-key="heroTitle">
+            Join the Community of Happy Working Women
+          </h2>
+          <p class="hero__description" data-key="heroDescription">
+            Supporting working women to find clarity, confidence, and balance in
+            their personal and professional lives—together, at your own pace.
+          </p>
+          <a
+            href="#booking"
+            class="button button--primary hero__button"
+            data-key="bookNow"
+            >Book Now</a
+          >
+        </div>
+
+        <div class="hero__media slider swiper-1 swiper">
+          <div class="slider__container swiper-wrapper">
+            <div class="slider__item swiper-slide">
+              <img
+                class="slider__image"
+                srcset="
+                  images/hero-image01@1x.jpg 1x,
+                  images/hero-image01@2x.jpg 2x
+                "
+                src="images/hero-image01@1x.jpg"
+                alt=""
+              />
+            </div>
+            <div class="slider__item swiper-slide">
+              <img
+                class="slider__image"
+                src="images/hero-image02@1x.jpg"
+                srcset="
+                  images/hero-image02@1x.jpg 1x,
+                  images/hero-image02@2x.jpg 2x
+                "
+                alt=""
+              />
+            </div>
+            <div class="slider__item swiper-slide">
+              <img
+                class="slider__image"
+                src="images/hero-image03@1x.jpg"
+                srcset="
+                  images/hero-image03@1x.jpg 1x,
+                  images/hero-image03@2x.jpg 2x
+                "
+                alt=""
+              />
+            </div>
+            <div class="slider__item swiper-slide">
+              <img
+                class="slider__image"
+                src="images/hero-image04@1x.jpg"
+                srcset="
+                  images/hero-image04@1x.jpg 1x,
+                  images/hero-image04@2x.jpg 2x
+                "
+                alt=""
+              />
+            </div>
+            <div class="slider__item swiper-slide">
+              <img
+                class="slider__image"
+                src="images/hero-image05@1x.jpg"
+                srcset="
+                  images/hero-image05@1x.jpg 1x,
+                  images/hero-image05@2x.jpg 2x
+                "
+                alt=""
+              />
+            </div>
+            <div class="slider__item swiper-slide">
+              <img
+                class="slider__image"
+                src="images/hero-image06@1x.jpg"
+                srcset="
+                  images/hero-image06@1x.jpg 1x,
+                  images/hero-image06@2x.jpg 2x
+                "
+                alt=""
+              />
+            </div>
+            <div class="slider__item swiper-slide">
+              <img
+                class="slider__image"
+                src="images/hero-image07@1x.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="coaching" id="coaching">
+        <h2 class="coaching__heading">
+          <span class="visually-hidden">Coaching</span>
+          <img class="coaching__symbol" src="svg/simbol01.svg" alt="" />
+        </h2>
+
+        <p class="coaching__intro" data-key="coachingIntro">
+          Are you a woman ready to unlock your full potential and achieve your
+          dreams? Look no further! As a passionate life coach and entrepreneur,
+          I'm dedicated to guiding you on your journey to success and
+          fulfillment.
+        </p>
+
+        <div class="coaching__cards">
+          <section class="coaching-card">
+            <h3 class="coaching-card__title" data-key="coachingCard1Ttile">
+              Holistic Empowerment
+            </h3>
+            <div class="coaching-card__icon">
+              <img src="svg/icon01.svg" alt="Envelope with a hearth icon" />
+            </div>
+            <p class="coaching-card__text" data-key="coachingCard1Text">
+              I believe in addressing all aspects of life to achieve true
+              balance and happiness. Together, we'll work on personal
+              development, career advancement, relationships, and self-care.
+            </p>
+          </section>
+
+          <section class="coaching-card">
+            <h3 class="coaching-card__title" data-key="coachingCard2Ttile">
+              Goal-Oriented Coaching
+            </h3>
+            <div class="coaching-card__icon">
+              <img src="svg/icon02.svg" alt="Paper with a hearth icon" />
+            </div>
+            <p class="coaching-card__text" data-key="coachingCard2Text">
+              Whether you're striving for career advancement, starting your own
+              business, or seeking personal growth, I'll help you set clear,
+              achievable goals and develop actionable plans to reach them.
+            </p>
+          </section>
+
+          <section class="coaching-card">
+            <h3 class="coaching-card__title" data-key="coachingCard3Ttile">
+              Mastering the Mindset
+            </h3>
+            <div class="coaching-card__icon">
+              <img src="svg/icon03.svg" alt="Notebook icon" />
+            </div>
+            <p class="coaching-card__text" data-key="coachingCard3Text">
+              Success starts from within. Through mindset coaching and positive
+              psychology techniques, we'll overcome limiting beliefs and
+              cultivate a mindset for success.
+            </p>
+          </section>
+        </div>
+      </section>
+
+      <section class="founder">
+        <h2 class="visually-hidden" data-key="founderTitle">
+          A Message from Hannah Parker
+        </h2>
+        <picture class="founder__picture">
+          <source
+            media="(max-width: 430px)"
+            srcset="
+              images/intro01small@1x.jpg 1x,
+              images/intro01small@2x.jpg 2x
+            "
+          />
+          <img
+            class="founder__photo"
+            src="images/intro01@1x.jpg"
+            srcset="images/intro01@1x.jpg 1x, images/intro01@2x.jpg 2x"
+            alt="Hannah, female life coach"
+          />
+        </picture>
+
+        <div class="founder__content">
+          <figure class="founder__quote">
+            <blockquote class="founder__blockquote">
+              <p class="founder__text" data-key="founderMessage">
+                Life's Journey Is An Ongoing Process, And Our Subscription
+                Ensures You Have A Reliable Partner Every Step Of The Way.
+                Regular Sessions Keep You Accountable And Motivated For
+                Sustained Progress.
+              </p>
+            </blockquote>
+
+            <figcaption class="founder__author">
+              <span class="visually-hidden">Hannah Parker</span>
+              <img
+                class="founder__signature"
+                src="svg/hannah-parker.svg"
+                alt="Hannah Parker sign"
+              />
+              <p class="founder__role" data-key="founderRole">
+                Health and Wellness Coach
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="stats">
+        <h2 class="visually-hidden" data-key="statsTitle">Growing Together</h2>
+
+        <div class="stats__list">
+          <dl class="stats__item">
+            <dt class="stats__label" data-key="statsLabel1">
+              Awards & Recognition
+            </dt>
+            <dd class="stats__value">11</dd>
+          </dl>
+          <dl class="stats__item">
+            <dt class="stats__label" data-key="statsLabel2">Members</dt>
+            <dd class="stats__value">10k+</dd>
+          </dl>
+          <dl class="stats__item">
+            <dt class="stats__label" data-key="statsLabel3">Initiatives</dt>
+            <dd class="stats__value">20</dd>
+          </dl>
+          <dl class="stats__item">
+            <dt class="stats__label" data-key="statsLabel4">Yearly events</dt>
+            <dd class="stats__value">100+</dd>
+          </dl>
+        </div>
+
+        <p class="stats__description" data-key="statsDescription">
+          Whether you’re a seasoned health coach or just starting, it offers a
+          hassle-free solution to create a compelling online presence and
+          elevate your coaching business.
+        </p>
+
+        <a
+          href="#booking"
+          class="button button--primary stats__button"
+          data-key="bookNow"
+          >Book now</a
+        >
+      </section>
+
+      <section class="membership">
+        <div class="membership__content">
+          <h2 class="membership__title" data-key="membershipTitle">
+            Join Hannah’s Club Now
+          </h2>
+          <p class="membership__description" data-key="membershipDescription">
+            Ready to take the first step towards a life of purpose, passion, and
+            empowerment? Let's embark on this transformative journey together.
+            Schedule your complimentary consultation today and let's make your
+            dreams a reality!
+          </p>
+          <a class="membership__link" href="#" data-key="membershipLink"
+            >Learn more about membership</a
+          >
+        </div>
+
+        <div class="membership__image">
+          <img
+            src="images/illustration01@1x.jpg"
+            srcset="
+              images/illustration01@1x.jpg 1x,
+              images/illustration01@2x.jpg 2x
+            "
+            alt="illustration of a woman holding a book"
+          />
+        </div>
+      </section>
+
+      <section class="benefits" id="benefits">
+        <h2 class="visually-hidden" data-key="benefitsTitle">
+          How This Supports Your Growth
+        </h2>
+
+        <div class="benefits__content">
+          <ul class="benefits__list">
+            <li class="benefits__item" data-key="benefitsItem1">
+              Acquire creative expertise to reach your personal and career
+              objectives.
+            </li>
+            <li class="benefits__item" data-key="benefitsItem2">
+              Progress and enhance your abilities at your preferred speed.
+            </li>
+            <li class="benefits__item" data-key="benefitsItem3">
+              Transform from a novice to an expert within a few hours.
+            </li>
+            <li class="benefits__item" data-key="benefitsItem4">
+              Engage with a worldwide community of inquisitive and imaginative
+              individuals.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="reviews">
+        <h2 class="reviews__title" data-key="reviewsTitle">Reviews</h2>
+
+        <div class="reviews__container swiper-2 swiper">
+          <div class="reviews__list swiper-wrapper">
+            <article class="review swiper-slide">
+              <div class="review__avatar">
+                <img src="images/rating-image01@1x.jpg" alt="Customer photo" />
+              </div>
+              <div class="review__content">
+                <p class="review__text" data-key="reviewText1">
+                  The sessions were structured yet flexible. Hannah’s approach
+                  feels practical, warm, and easy to follow.
+                </p>
+                <div class="review__reviewer">
+                  <span class="review__rating">★★★★★</span>
+                  <strong class="review__name">Elizabeth Murray</strong>
+                  <span class="review__role" data-key="role">Member</span>
+                </div>
+              </div>
+            </article>
+            <article class="review swiper-slide">
+              <div class="review__avatar">
+                <img src="images/rating-image02@1x.jpg" alt="Customer photo" />
+              </div>
+              <div class="review__content">
+                <p class="review__text" data-key="reviewText2">
+                  Hannah helped me gain clarity and confidence during a very
+                  uncertain phase of my life. Her guidance felt calm,
+                  thoughtful, and genuinely supportive.
+                </p>
+                <div class="review__reviewer">
+                  <span class="review__rating">★★★★★</span>
+                  <strong class="review__name">Stacy Jones</strong>
+                  <span class="review__role" data-key="role">Member</span>
+                </div>
+              </div>
+            </article>
+            <article class="review swiper-slide">
+              <div class="review__avatar">
+                <img src="images/rating-image03@1x.jpg" alt="Customer photo" />
+              </div>
+              <div class="review__content">
+                <p class="review__text" data-key="reviewText3">
+                  Each session with Hannah gave me a new perspective. I felt
+                  listened to, understood, and encouraged to grow at my own
+                  pace.
+                </p>
+                <div class="review__reviewer">
+                  <span class="review__rating">★★★★★</span>
+                  <strong class="review__name">Emily</strong>
+                  <span class="review__role" data-key="role">Member</span>
+                </div>
+              </div>
+            </article>
+            <article class="review swiper-slide">
+              <div class="review__avatar">
+                <img src="images/rating-image04@1x.jpg" alt="Customer photo" />
+              </div>
+              <div class="review__content">
+                <p class="review__text" data-key="reviewText4">
+                  Working with Hannah was a grounding experience. She creates a
+                  safe space to reflect, set goals, and move forward with
+                  intention.
+                </p>
+                <div class="review__reviewer">
+                  <span class="review__rating">★★★★★</span>
+                  <strong class="review__name">Cloe Reinders</strong>
+                  <span class="review__role" data-key="role">Member</span>
+                </div>
+              </div>
+            </article>
+            <article class="review swiper-slide">
+              <div class="review__avatar">
+                <img src="images/rating-image05@1x.jpg" alt="Customer photo" />
+              </div>
+              <div class="review__content">
+                <p class="review__text" data-key="reviewText5">
+                  Hannah’s coaching helped me reconnect with myself and build
+                  healthier boundaries. I feel more confident in my decisions
+                  now.
+                </p>
+                <div class="review__reviewer">
+                  <span class="review__rating">★★★★★</span>
+                  <strong class="review__name">Stacy</strong>
+                  <span class="review__role" data-key="role">Member</span>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="reviews__dots swiper-pagination"></div>
+        </div>
+      </section>
+
+      <section class="booking" id="booking">
+        <h2 class="booking__title" data-key="bookingTitle">
+          Book an appointment
+        </h2>
+
+        <p class="booking__description" data-key="bookingDescription">
+          Ready to take the first step towards a life of purpose, passion, and
+          empowerment? Let's embark on this transformative journey together.
+          Schedule your complimentary consultation today and let's make your
+          dreams a reality!
+        </p>
+
+        <form class="booking__form">
+          <label class="booking__field">
+            <span class="booking__label" data-key="bookingLabelName"
+              >Your full Name*</span
+            >
+            <input class="booking__input" type="text" required />
+          </label>
+
+          <label class="booking__field">
+            <span class="booking__label" data-key="bookingLabelEmail"
+              >Your email address*</span
+            >
+            <input class="booking__input" type="email" required />
+          </label>
+
+          <label class="booking__field">
+            <span class="booking__label" data-key="bookingLabelMessage"
+              >Your message*</span
+            >
+            <textarea class="booking__textarea" required></textarea>
+          </label>
+
+          <button
+            class="button button--primary booking__submit"
+            type="submit"
+            data-key="bookingSubmitBtn"
+          >
+            Book a Free Consultation
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__top">
+        <img
+          class="footer__logo"
+          src="svg/hannah-logo-bright.svg"
+          alt="Hannah Female Life Coach logo"
+        />
+      </div>
+
+      <div class="footer__socials">
+        <div class="footer__social-item">
+          <a href="#">
+            <img
+              class="footer__social-icon"
+              src="svg/uil_facebook-f.svg"
+              alt="Facebook icon"
+            />
+          </a>
+        </div>
+
+        <div class="footer__social-item">
+          <a href="#">
+            <img
+              class="footer__social-icon"
+              src="svg/uil_twitter-alt.svg"
+              alt="Twitter icon"
+            />
+          </a>
+        </div>
+
+        <div class="footer__social-item">
+          <a href="#">
+            <img
+              class="footer__social-icon"
+              src="svg/uil_facebook-messenger-alt.svg"
+              alt="Messenger icon"
+            />
+          </a>
+        </div>
+
+        <div class="footer__social-item">
+          <a href="#">
+            <img
+              class="footer__social-icon"
+              src="svg/uil_instagram.svg"
+              alt="Instagram icon"
+            />
+          </a>
+        </div>
+
+        <div class="footer__social-item">
+          <a href="#">
+            <img
+              class="footer__social-icon"
+              src="svg/uil_skype-alt.svg"
+              alt="Skype icon"
+            />
+          </a>
+        </div>
+
+        <div class="footer__social-item">
+          <a href="#">
+            <img
+              class="footer__social-icon"
+              src="svg/uil_telegram-alt.svg"
+              alt="Telegram icon"
+            />
+          </a>
+        </div>
+
+        <div class="footer__social-item">
+          <a href="#">
+            <img
+              class="footer__social-icon"
+              src="svg/uil_whatsapp.svg"
+              alt="Whatsapp icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="footer__links">
+        <div class="footer__column">
+          <p class="footer__heading" data-key="footerHeading1">Quick links</p>
+          <nav class="footer__nav" aria-label="Footer quick links">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#" data-key="footerLink1">Home</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#" data-key="footerLink2"
+                  >About Us</a
+                >
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#" data-key="footerLink3"
+                  >Offers</a
+                >
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#" data-key="footerLink4"
+                  >Service</a
+                >
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#" data-key="footerLink5"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer__column">
+          <p class="footer__heading" data-key="footerHeading2">About</p>
+          <nav class="footer__nav" aria-label="Footer about links">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#" href="#" data-key="footerLink6"
+                  >How is work</a
+                >
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#" href="#" data-key="footerLink7"
+                  >Our packages</a
+                >
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#" href="#" data-key="footerLink8"
+                  >Promotions</a
+                >
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#" href="#" data-key="footerLink9"
+                  >Service</a
+                >
+              </li>
+              <li class="footer__item">
+                <a
+                  class="footer__link"
+                  href="#"
+                  href="#"
+                  data-key="footerLink10"
+                  >Refer a friend</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer__column">
+          <p class="footer__heading" data-key="footerHeading3">Help Centre</p>
+          <nav class="footer__nav" aria-label="Footer help centre">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a
+                  class="footer__link"
+                  href="#"
+                  href="#"
+                  data-key="footerLink11"
+                  >Payments</a
+                >
+              </li>
+              <li class="footer__item">
+                <a
+                  class="footer__link"
+                  href="#"
+                  href="#"
+                  data-key="footerLink12"
+                  >Shipping</a
+                >
+              </li>
+              <li class="footer__item">
+                <a
+                  class="footer__link"
+                  href="#"
+                  href="#"
+                  data-key="footerLink13"
+                  >Product returns</a
+                >
+              </li>
+              <li class="footer__item">
+                <a
+                  class="footer__link"
+                  href="#"
+                  href="#"
+                  data-key="footerLink14"
+                  >FAQs</a
+                >
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#" data-key="footerLink15"
+                  >Other Issues</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <small class="footer__copyright">
+          © 2024 <a href="https://templatesjungle.com/">TemplatesJungle</a>. All
+          rights reserved.
+        </small>
+        <a href="https://templatesjungle.com/" target="_blank"
+          ><small class="footer__credit"
+            >Design by TemplatesJungle.com</small
+          ></a
+        >
+      </div>
+    </footer>
+
+    <button class="to-top" aria-label="Back to top">
+      <svg
+        width="44"
+        height="44"
+        viewBox="0 0 44 44"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect width="44" height="44" rx="22" fill="#304248" />
+        <path
+          d="M16.9064 20.7164C16.8056 20.8241 16.684 20.9104 16.549 20.9704C16.414 21.0303 16.2682 21.0625 16.1203 21.0651C15.9725 21.0677 15.8257 21.0406 15.6886 20.9855C15.5515 20.9303 15.427 20.8483 15.3225 20.7442C15.2179 20.6401 15.1355 20.5161 15.0801 20.3796C15.0248 20.2431 14.9976 20.0969 15.0002 19.9497C15.0028 19.8025 15.0351 19.6574 15.0953 19.5229C15.1555 19.3884 15.2422 19.2674 15.3504 19.167L21.222 13.3206C21.4284 13.1153 21.7083 13 22 13C22.2917 13 22.5716 13.1153 22.778 13.3206L28.6496 19.167C28.7578 19.2674 28.8445 19.3884 28.9047 19.5229C28.9649 19.6574 28.9972 19.8025 28.9998 19.9497C29.0024 20.0969 28.9752 20.2431 28.9199 20.3796C28.8645 20.5161 28.7821 20.6401 28.6775 20.7442C28.573 20.8483 28.4485 20.9303 28.3114 20.9855C28.1743 21.0406 28.0275 21.0677 27.8797 21.0651C27.7318 21.0625 27.586 21.0303 27.451 20.9704C27.316 20.9104 27.1944 20.8241 27.0936 20.7164L23.1009 16.7408L23.1009 30.9038C23.1009 31.1945 22.9849 31.4733 22.7785 31.6789C22.572 31.8845 22.292 32 22 32C21.708 32 21.428 31.8845 21.2215 31.6789C21.0151 31.4733 20.8991 31.1945 20.8991 30.9038L20.8991 16.7408L16.9064 20.7164Z"
+          fill="#EBF4F1"
+        />
+      </svg>
+    </button>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+$base-color: #ffffff;
+$dark-color: #304248;
+$primary-color: #759589;
+$secondary-color: #ebf4f1;
+$accent-color01: #ed9570;
+$accent-color02: #ffc43f;
+
+/* 1. Set dasar di Body */
+body {
+  color: $dark-color;
+}
+
+/* 2. Paksa elemen Form untuk mewarisi warna Body
+   (Secara default browser memberi warna sendiri untuk input/button) */
+input,
+button,
+textarea,
+select {
+  color: inherit;
+  font: inherit; /* Supaya font-family juga ikut */
+}
+
+/* 3. Atur Link (Secara default browser membuatnya biru) */
+a {
+  color: inherit; /* Atau set warna spesifik untuk link */
+  text-decoration: none;
+}
