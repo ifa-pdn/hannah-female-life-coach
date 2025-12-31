@@ -40,7 +40,11 @@ https://ifa-pdn.github.io/hannah-female-life-coach/
 - 静的ウェブサイトのデプロイ手順を学ぶ
 
 注意:
-このプロジェクトは静的ウェブサイトであり、バックエンドやデータベースには接続されていません。
+
+- このプロジェクトは静的ウェブサイトであり、バックエンドやデータベースには接続されていません。
+- ウェブサイトのデザインには、templatesjungle.com が提供する無料の Figma テンプレートを使用しています。
+  [shorturl.at/xWSaL][templatesjungle.com]
+- HTML、SCSS、JavaScript の実装はすべて自作です。
 
 作者:
 Iwan Fauzan
@@ -89,7 +93,10 @@ Project Goals:
 - Learn the process of deploying a static website
 
 Note:
-This project is a static website and is not connected to a backend or database.
+
+- This project is a static website and is not connected to a backend or database.
+- The website design uses a free Figma template from templatesjungle [shorturl.at/xWSaL][templatesjungle.com].
+- The HTML, SCSS, and JavaScript implementation was done independently.
 
 Author:
 Iwan Fauzan
@@ -138,7 +145,10 @@ Tujuan Proyek:
 - Mempelajari proses deployment website statis
 
 Catatan:
-Proyek ini merupakan website statis dan belum terhubung dengan backend atau database.
+
+- Proyek ini merupakan website statis dan belum terhubung dengan backend atau database.
+- Desain website menggunakan template Figma gratis dari [shorturl.at/xWSaL][templatesjungle.com].
+- Implementasi HTML, SCSS, dan JavaScript dikerjakan secara mandiri.
 
 Author:
 Iwan Fauzan
