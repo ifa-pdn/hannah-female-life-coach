@@ -70,15 +70,24 @@ _プロジェクトノート – Hannah Female Life Coach_
 
 ---
 
-## 個人的な気づき
+## 個人的な振り返り
 
-このプロジェクトを通して、Webサイト制作は
-単にコードを書くことだけでなく、
+**CSS・レスポンシブデザイン**
 
-- バージョン管理
-- 成果物の伝え方
+このプロジェクトで最も時間を要したのは CSS でした。特に、clamp() を用いた フルードデザイン を初めて本格的に取り入れた点です。
+当初は、メディアクエリを完全になくすことが目的だと誤解していましたが、調査を進める中で、実際には CSS の上書きを減らし、より柔軟なレイアウトを実現するための手法 であると理解しました。
+rem、vw、% などの単位計算には苦労しましたが、モダンなレスポンシブデザインへの理解を深める良い経験になりました。
 
-も重要であると実感しました。
+**プロジェクト構成とビジュアル表現**
+
+プロジェクト全体の構成が整理され、一貫性が出てきた瞬間が最も楽しい部分でした。
+Swiper.js をスライダーコンポーネントとして使用することで、過度な複雑さを加えることなく、滑らかなアニメーションと視覚的なクオリティ向上を実現できました。
+既存の完成度の高い機能を活用することで、UI の品質向上に集中できたと感じています。
+
+**SCSS を使用した経験**
+
+今回のプロジェクトでは、これまであまり触れてこなかった SCSS を積極的に使用しました。
+パーシャル、ネスト、変数といった機能により、スタイルをより整理された形で記述でき、プロジェクトの規模が大きくなっても保守・拡張しやすい CSS を書けるようになりました。
 
 ---
 
@@ -150,9 +159,22 @@ To build a portfolio / promotional website for a female life coach with a focus 
 
 ## Personal Notes
 
-This project helped me realize that building a website is not only about writing code, but also about:
-- Managing versions properly
-- Communicating the outcome of the work clearly
+**CSS & Responsive Design**
+
+The most time-consuming part of this project was CSS, especially when applying a fluid design approach using clamp() for the first time.
+Initially, I thought the main goal was to eliminate the use of media queries entirely. However, after further research, I realized that this approach is more about reducing CSS overrides and creating more flexible layouts.
+Although it was challenging due to calculations involving units such as rem, vw, and %, this experience helped me gain a better understanding of modern responsive design concepts.
+
+**Project Structure & Visual Experience**
+
+The most enjoyable part was when the project structure started to feel clean and consistent.
+Using Swiper.js as a slider component provided smooth animations and improved the visual quality of the page without adding unnecessary complexity.
+This approach allowed me to focus on UI quality without having to rebuild well-established features from scratch.
+
+**Experience Using SCSS**
+
+In this project, I also started using SCSS more actively, which I had not explored much before.
+SCSS helped me organize styles more effectively through the use of partials, nesting, and variables, making the CSS easier to maintain and scale as the project grew in complexity.
 
 ---
 
@@ -225,6 +247,19 @@ dengan fokus pada:
 
 ## Catatan Pribadi
 
-Project ini membantu saya memahami bahwa membangun website bukan hanya soal menulis kode, tapi juga:
-- Mengelola versi
-- Menyampaikan hasil kerja dengan baik
+**CSS & Responsive Design**
+
+Bagian yang paling memakan waktu dalam project ini adalah CSS, khususnya saat pertama kali menerapkan pendekatan fluid design menggunakan clamp().
+Awalnya saya mengira tujuan utama pendekatan ini adalah menghilangkan penggunaan media query sepenuhnya. Namun setelah melakukan riset lebih lanjut, saya memahami bahwa tujuannya lebih ke mengurangi kebutuhan override CSS dan membuat layout menjadi lebih fleksibel.
+Meskipun cukup menantang karena melibatkan perhitungan unit seperti rem, vw, dan %, proses ini membantu saya memahami konsep responsive design modern dengan lebih baik.
+
+**Struktur Project & Visual Experience**
+
+Bagian yang paling menyenangkan adalah ketika struktur project mulai terasa rapi dan konsisten.
+Penggunaan Swiper.js sebagai komponen slider memberikan animasi yang halus dan meningkatkan kualitas visual halaman tanpa menambah kompleksitas berlebihan.
+Pendekatan ini memungkinkan saya untuk fokus pada kualitas UI tanpa harus membangun ulang fitur yang sudah tersedia dengan baik.
+
+**Pengalaman Menggunakan SCSS**
+
+Pada project ini saya juga mulai lebih aktif menggunakan SCSS, yang sebelumnya jarang saya eksplorasi.
+SCSS membantu saya menulis style dengan struktur yang lebih terorganisir melalui penggunaan partial, nesting, dan variable, sehingga file CSS menjadi lebih mudah dirawat dan dikembangkan seiring bertambahnya kompleksitas project.
